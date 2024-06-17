@@ -1,0 +1,102 @@
+[
+  {
+    "DisplayName": "test (ビュー)",
+    "Name": "_cr5d1_test_views",
+    "RelatedEntityName": "test",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "48b5a2f1-b6d3-4071-b17c-de78afba8759": "test検索ダイアログ ビュー",
+      "674f9a91-7937-4674-b66b-efb4eb5d9872": "testの高度な検索ビュー",
+      "a322aa7e-ebbb-4e49-b03c-03923b50f805": "アクティブなtest",
+      "bb9df750-64a2-4622-b84a-bd4d30b8f01a": "非アクティブなtest",
+      "eeb030a9-3adf-4d11-9610-74871467a32c": "test関連ビュー"
+    }
+  },
+  {
+    "DisplayName": "状態 (test)",
+    "Name": "cr5d1_test_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "アクティブ",
+      "1": "非アクティブ"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "test"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "test",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "ステータス (test)",
+    "Name": "cr5d1_test_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "アクティブ",
+      "2": "非アクティブ"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "test"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "test",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr5d1_tests",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr5d1_test",
+    "MaxGetRowsCount": 500,
+    "Name": "test",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "所有者",
+      "cr5d1_id": "ユーザーID",
+      "cr5d1_qiantity": "数量",
+      "cr5d1_tag1": "タグ予備1",
+      "cr5d1_tag2": "タグ予備2",
+      "cr5d1_tag3": "タグ予備3",
+      "cr5d1_test_AsyncOperations": "システム ジョブ ",
+      "cr5d1_test_BulkDeleteFailures": "一括削除の失敗 ",
+      "cr5d1_test_DuplicateBaseRecord": "レコードの重複  (cr5d1_test_DuplicateBaseRecord)",
+      "cr5d1_test_DuplicateMatchingRecord": "レコードの重複  (cr5d1_test_DuplicateMatchingRecord)",
+      "cr5d1_test_MailboxTrackingFolders": "メールボックス自動追跡フォルダー",
+      "cr5d1_test_PrincipalObjectAttributeAccesses": "フィールド共有 ",
+      "cr5d1_test_ProcessSession": "プロセス セッション",
+      "cr5d1_test_SyncErrors": "同期エラー",
+      "cr5d1_testid": "test",
+      "cr5d1_unitprice": "単価",
+      "createdby": "作成者",
+      "createdon": "作成日",
+      "createdonbehalfby": "作成者 (代理)",
+      "importsequencenumber": "インポート シーケンス番号",
+      "modifiedby": "修正者",
+      "modifiedon": "修正日",
+      "modifiedonbehalfby": "修正者 (代理)",
+      "overriddencreatedon": "レコード作成日",
+      "owningbusinessunit": "所属部署",
+      "owningteam": "所有チーム",
+      "owninguser": "所有ユーザー",
+      "statecode": "状態",
+      "statuscode": "ステータス",
+      "timezoneruleversionnumber": "タイム ゾーン規則のバージョン番号",
+      "utcconversiontimezonecode": "UTC 変換タイム ゾーン コード",
+      "versionnumber": "バージョン番号"
+    },
+    "PreferredName": "test",
+    "Type": "NativeCDSDataSourceInfo"
+  }
+]
