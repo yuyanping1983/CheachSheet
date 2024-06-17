@@ -1,0 +1,150 @@
+{
+  "0921c7d7-76f7-4f53-804e-9c182cf6c1ff": {
+    "appActions": [
+      "Run"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "ロジック フロー",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "c7a9b7fc-4604-4d1b-9802-01a3680be606": {
+          "value": "shared_office365"
+        },
+        "workflowDisplayName": {
+          "value": "ワークフロー"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "20b8938b-29c5-4966-b686-9d486fa9b7f6"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_office365": {
+          "value": "c7a9b7fc-4604-4d1b-9802-01a3680be606"
+        },
+        "workflowDisplayName": {
+          "value": "ワークフロー"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "20b8938b-29c5-4966-b686-9d486fa9b7f6"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "ワークフロー"
+    ],
+    "dependencies": {
+      "shared_office365": "c7a9b7fc-4604-4d1b-9802-01a3680be606"
+    },
+    "dependents": [],
+    "id": "0921c7d7-76f7-4f53-804e-9c182cf6c1ff"
+  },
+  "b7c9f34e-c6af-4dec-9fb2-9bee887135ef": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "ロジック フロー",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "c7a9b7fc-4604-4d1b-9802-01a3680be606": {
+          "value": "shared_office365"
+        },
+        "workflowDisplayName": {
+          "value": "SharePoint にアイテムを追加してメールを送信する"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "b87d218d-61b5-4502-9c9a-a48735149937"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_office365": {
+          "value": "c7a9b7fc-4604-4d1b-9802-01a3680be606"
+        },
+        "workflowDisplayName": {
+          "value": "SharePoint にアイテムを追加してメールを送信する"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "b87d218d-61b5-4502-9c9a-a48735149937"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "SharePointにアイテムを追加してメールを送信する"
+    ],
+    "dependencies": {
+      "shared_office365": "c7a9b7fc-4604-4d1b-9802-01a3680be606"
+    },
+    "dependents": [],
+    "id": "b7c9f34e-c6af-4dec-9fb2-9bee887135ef"
+  },
+  "c7a9b7fc-4604-4d1b-9802-01a3680be606": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1686/1.0.1686.3706/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "e8a67368-bdc6-4da2-a248-7cd8e1d01190",
+      "b7c9f34e-c6af-4dec-9fb2-9bee887135ef",
+      "0921c7d7-76f7-4f53-804e-9c182cf6c1ff"
+    ],
+    "id": "c7a9b7fc-4604-4d1b-9802-01a3680be606"
+  },
+  "e8a67368-bdc6-4da2-a248-7cd8e1d01190": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "ロジック フロー",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "c7a9b7fc-4604-4d1b-9802-01a3680be606": {
+          "value": "shared_office365"
+        },
+        "workflowDisplayName": {
+          "value": "PowerAppV2 -> メールの送信 (V2) - 2"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "b2a7350a-3d06-4c68-985a-365fcb2abfd5"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_office365": {
+          "value": "c7a9b7fc-4604-4d1b-9802-01a3680be606"
+        },
+        "workflowDisplayName": {
+          "value": "PowerAppV2 -> メールの送信 (V2) - 2"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "b2a7350a-3d06-4c68-985a-365fcb2abfd5"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "PowerAppV2->メールの送信(V2)-2"
+    ],
+    "dependencies": {
+      "shared_office365": "c7a9b7fc-4604-4d1b-9802-01a3680be606"
+    },
+    "dependents": [],
+    "id": "e8a67368-bdc6-4da2-a248-7cd8e1d01190"
+  }
+}

@@ -1,0 +1,62 @@
+Screen1 As screen:
+
+    Button1 As button:
+        OnSelect: =ワークフロー.Run()
+        Text: ="ボタン"
+        X: =1117
+        Y: =40
+        ZIndex: =1
+
+    DataTable1 As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =500
+        Items: =test
+        Width: =800
+        X: =102
+        Y: =51
+        ZIndex: =2
+
+        "'ユーザーID列(_C)1' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="ユーザーID"
+            FieldName: ="cr5d1_id"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =1
+            Text: =ThisItem.ユーザーID
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+        "'単価列(_C)1' As dataTableColumn.numberColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="単価"
+            FieldName: ="cr5d1_unitprice"
+            FieldVariantName: ="numberColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =ThisItem.単価
+            Width: =100
+            X: =536
+            Y: =0
+            ZIndex: =2
+
+        "'数量列(_C)1' As dataTableColumn.numberColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="数量"
+            FieldName: ="cr5d1_qiantity"
+            FieldVariantName: ="numberColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =3
+            Text: =ThisItem.数量
+            Width: =100
+            X: =536
+            Y: =0
+            ZIndex: =3
+
