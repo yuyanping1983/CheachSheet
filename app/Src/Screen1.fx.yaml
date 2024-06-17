@@ -60,3 +60,9 @@ Screen1 As screen:
             Y: =0
             ZIndex: =3
 
+    Button2 As button:
+        Text: ="ボタン"
+        X: =156
+        Y: =444
+        ZIndex: =3
+
